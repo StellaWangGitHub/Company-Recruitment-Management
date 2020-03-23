@@ -1,0 +1,118 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #black;
+    line-height: 1.8;
+  }
+  table {
+      width: 20%;
+      border: 1px solid black;
+  }
+
+  th {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: .7em;
+      background: #666;
+      color: #FFF;
+      padding: 2px 6px;
+      border-collapse: separate;
+      border: 1px solid #000;
+  }
+
+  td {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: .7em;
+      border: 1px solid #DDD;
+      color: black;
+  }
+/* Create a Parallax Effect */
+.bgimg-0, .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* index  image (Logo. Full height) */
+.bgimg-0 {
+    background-image: url('./alumni.jpg');
+    min-height: 100%;
+}
+
+.img1 {
+    background-image: url('./alumni.jpg');
+    min-height: 100%;
+    background-size: cover;
+}
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('./img2/ocean.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("./img2/beach.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("./img2/fountain 2.jpeg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+/* @media only screen and (max-device-width: 1600px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+} */
+
+.fa-user{
+  padding-right: 5px
+}
+
+#home {
+  text-align: center;
+}
+
+.fblogo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 30px; */
+}
+
+#images{
+    text-align:center;
+}
+
+#mepic{
+  border-radius: 16px 16px 16px 16px;
+}
+/*
+@media screen and (max-width: 1024px) {
+your font  style goes here
+
+}
+
+@media screen and (max-width: 950px) {
+ your font  style goes here
+
+}
+
+
+@media screen and (max-width: 650px) {
+ your font  style goes here
+
+
+}
+
+@media screen and (max-width: 480px) {
+ your font  style goes here
+
+} */
